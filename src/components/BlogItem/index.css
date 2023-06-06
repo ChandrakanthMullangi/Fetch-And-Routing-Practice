@@ -1,0 +1,50 @@
+/* Write your CSS code here */
+
+.image {
+  height: 250px;
+  width: 350px;
+}
+
+.avatar {
+  height: 50px;
+  width: auto;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+.blog-item {
+  text-decoration: none;
+}
+
+.blog-item-container {
+  border: 1px solid #8e8e8e;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-item-container {
+    flex-direction: row;
+  }
+}
+
+.blog-item-into {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}

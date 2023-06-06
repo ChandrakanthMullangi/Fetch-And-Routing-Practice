@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+
+.item-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.item-title {
+  font-family: Roboto;
+  text-align: center;
+}
+
+.item-author {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.item-avatar {
+  height: 50px;
+  width: auto;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+.item-author-name {
+  font-family: Roboto;
+}
+
+.item-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.item-content {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #2f4f4f;
+}
